@@ -425,7 +425,8 @@ namespace EntityFramework.Batch
                 if (selector.Length > 4)
                     selector.Append((", "));
 
-                selector.Append(propertyMap.PropertyName);
+                // Add @ to avoid issues with PrimaryKeys named 'Guid'
+                selector.Append("@" + propertyMap.PropertyName);
             }
             selector.Append(")");
 

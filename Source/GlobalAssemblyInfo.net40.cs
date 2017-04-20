@@ -13,8 +13,8 @@
 [assembly: System.Reflection.AssemblyCompany("LoreSoft")]
 [assembly: System.Reflection.AssemblyCopyright("Copyright © 2015 LoreSoft")]
 [assembly: System.Reflection.AssemblyVersion("6.0.0.0")]
-[assembly: System.Reflection.AssemblyFileVersion("6.1.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersion("6.1.0.0")]
+[assembly: System.Reflection.AssemblyFileVersion("6.1.0.169")]
+[assembly: System.Reflection.AssemblyInformationalVersion("6.1.0.169")]
 
 
 
@@ -30,9 +30,9 @@ internal sealed partial class ThisAssembly {
     
     internal const string AssemblyVersion = "6.0.0.0";
     
-    internal const string AssemblyFileVersion = "6.1.0.0";
+    internal const string AssemblyFileVersion = "6.1.0.169";
     
-    internal const string AssemblyInformationalVersion = "6.1.0.0";
+    internal const string AssemblyInformationalVersion = "6.1.0.169";
     
     private ThisAssembly() {
     }
